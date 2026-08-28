@@ -1,0 +1,17 @@
+|Compuertas
+iA => oW.IN0
+iA => oX.IN0
+iA => oZ.IN0
+iB => oW.IN1
+iB => oX.IN1
+iB => oZ.IN1
+iC => oW.IN1
+iC => oX.IN1
+iC => oZ.IN1
+iC => oY.DATAIN
+oW << oW.DB_MAX_OUTPUT_PORT_TYPE
+oX << oX.DB_MAX_OUTPUT_PORT_TYPE
+oY << iC.DB_MAX_OUTPUT_PORT_TYPE
+oZ << oZ.DB_MAX_OUTPUT_PORT_TYPE
+
+

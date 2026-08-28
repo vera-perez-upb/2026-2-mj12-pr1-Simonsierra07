@@ -1,0 +1,9 @@
+|circuito_uno
+iA => oX.IN0
+iB => oX.IN1
+iC => oX.IN1
+iC => oY.DATAIN
+oX << oX.DB_MAX_OUTPUT_PORT_TYPE
+oY << iC.DB_MAX_OUTPUT_PORT_TYPE
+
+

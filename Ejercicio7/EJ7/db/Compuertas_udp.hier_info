@@ -1,0 +1,47 @@
+|Compuertas_udp
+oW << MiAND:comb_3.port0
+oX << MiOR:comb_4.port0
+oY << MiNOT:comb_5.port0
+oZ << MiOREX:comb_6.port0
+iA => iA.IN3
+iB => iB.IN4
+iC => iC.IN3
+
+
+|Compuertas_udp|MiAND:comb_3
+X <= comb.DB_MAX_OUTPUT_PORT_TYPE
+A => comb.IN0
+B => comb.IN1
+C => comb.IN1
+
+
+|Compuertas_udp|MiOR:comb_4
+X <= comb.DB_MAX_OUTPUT_PORT_TYPE
+A => comb.IN0
+A => comb.IN0
+B => comb.IN1
+B => comb.IN1
+C => comb.IN1
+
+
+|Compuertas_udp|MiNOT:comb_5
+X <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => X.DATAIN
+
+
+|Compuertas_udp|MiOREX:comb_6
+X <= comb.DB_MAX_OUTPUT_PORT_TYPE
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+B => comb.IN1
+B => comb.IN1
+B => comb.IN1
+B => comb.IN1
+C => comb.IN1
+C => comb.IN1
+C => comb.IN1
+C => comb.IN1
+
+
