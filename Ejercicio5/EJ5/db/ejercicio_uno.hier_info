@@ -1,0 +1,9 @@
+|ejercicio_uno
+iA => g1.IN0
+iB => g1.IN1
+iC => g3.IN1
+iC => oY.DATAIN
+oX << g3.DB_MAX_OUTPUT_PORT_TYPE
+oY << iC.DB_MAX_OUTPUT_PORT_TYPE
+
+

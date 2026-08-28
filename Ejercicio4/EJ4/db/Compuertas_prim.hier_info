@@ -1,0 +1,17 @@
+|Compuertas_prim
+iA => g1.IN0
+iA => g2.IN0
+iA => g4.IN0
+iB => g1.IN1
+iB => g2.IN1
+iB => g4.IN1
+iC => g1.IN2
+iC => g2.IN2
+iC => g4.IN2
+iC => oY.DATAIN
+oW << g1.DB_MAX_OUTPUT_PORT_TYPE
+oX << g2.DB_MAX_OUTPUT_PORT_TYPE
+oY << iC.DB_MAX_OUTPUT_PORT_TYPE
+oZ << g4.DB_MAX_OUTPUT_PORT_TYPE
+
+

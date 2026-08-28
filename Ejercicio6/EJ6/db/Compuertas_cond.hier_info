@@ -1,0 +1,18 @@
+|Compuertas_cond
+iA => oW.IN0
+iA => oZ.IN0
+iA => oX.IN0
+iA => oZ.IN0
+iA => oY.DATAIN
+iB => oW.IN1
+iB => oZ.IN1
+iB => oX.IN1
+iB => oZ.IN1
+iC => oW.IN1
+iC => oX.IN1
+oW << oW.DB_MAX_OUTPUT_PORT_TYPE
+oX << oX.DB_MAX_OUTPUT_PORT_TYPE
+oY << iA.DB_MAX_OUTPUT_PORT_TYPE
+oZ << oZ.DB_MAX_OUTPUT_PORT_TYPE
+
+
